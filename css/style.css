@@ -182,6 +182,11 @@ section.sobre-equipe > .container{
     color: blue;
 }
 
+section.inscricao{
+    background-color: chartreuse;
+    padding: 10px 0;
+}
+
 @media screen and (max-width: 568px){
     .box-icone-single{
         width: 100%;
