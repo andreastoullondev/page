@@ -11,6 +11,13 @@
     padding: 0 2%;
 }
 
+.w50{
+    width: 50%;
+    float: left;
+}
+
+.center{text-align: center;}
+
 .clear{clear:both;}
 
 
