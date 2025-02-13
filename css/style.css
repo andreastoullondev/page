@@ -194,6 +194,21 @@ section.inscricao{
     padding: 10px 0;
 }
 
+.inscricao-form input[type=text]{
+    width: calc(100% - 120px);
+    height: 40px;
+    border: 2px solid #ccc;
+    display: inline-block;
+}
+
+.inscricao-form input[type=submit]{
+    width: 120px;
+    height: 40px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    display: inline-block;
+}
+
 @media screen and (max-width: 568px){
     .box-icone-single{
         width: 100%;
