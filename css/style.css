@@ -209,7 +209,31 @@ section.inscricao{
     display: inline-block;
 }
 
+section.cards{
+    padding: 30px 0;
+    border-bottom: 5px solid black;
+}
 
+.card-single{
+    width: 33.3%;
+    float: left;
+    padding: 50px;
+   
+}
+
+.card-single img{
+    width: 100%;
+}
+
+.card-single h3{
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.card-single p {
+    font-weight: lighter;
+    font-size: 16px;
+}
 
 @media screen and (max-width: 568px){
     .box-icone-single{
@@ -223,6 +247,10 @@ section.inscricao{
     .sobre-container{
         width: 100%;
         margin-top: 60px ;
+    }
+
+    .card-single{
+        width: 100%;
     }
 }
 
