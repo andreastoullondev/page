@@ -209,6 +209,8 @@ section.inscricao{
     display: inline-block;
 }
 
+
+
 @media screen and (max-width: 568px){
     .box-icone-single{
         width: 100%;
