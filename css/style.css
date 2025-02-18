@@ -16,6 +16,11 @@
     float: left;
 }
 
+.w33{
+    float: left;
+    width: 33.3%;
+}
+
 .center{text-align: center;}
 
 .clear{clear:both;}
@@ -238,13 +243,40 @@ section.cards{
 footer.footer1{
     background: #424040;
     padding: 20px 0;
+    color: white;
+}
+
+footer.footer1 h2{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+footer.footer1 p{
+    margin-top: 8px;
+    font-weight: lighter;
+}
+
+footer.footer1 a{
+    display: block;
+    color: white;
+}
+
+div.group-icons a{
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 @media screen and (max-width: 568px){
+
+    footer.footer1{
+        text-align: center;
+    }
+    
     .box-icone-single{
         width: 100%;
     }
-
+    .w50,.w33{width: 100%; margin-bottom: 20px;}
     .equipe-conatiner{
         width: 100%;
     }
