@@ -235,6 +235,11 @@ section.cards{
     font-size: 16px;
 }
 
+footer.footer1{
+    background: #424040;
+    padding: 20px 0;
+}
+
 @media screen and (max-width: 568px){
     .box-icone-single{
         width: 100%;
