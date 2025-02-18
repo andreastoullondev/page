@@ -267,12 +267,19 @@ div.group-icons a{
     margin: 0 10px;
 }
 
+footer.footer2{
+    padding: 20px 0;
+    background-color: #237a23;
+    text-align: center;
+    color: white;
+}
+
 @media screen and (max-width: 568px){
 
     footer.footer1{
         text-align: center;
     }
-    
+
     .box-icone-single{
         width: 100%;
     }
