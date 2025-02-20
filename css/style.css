@@ -306,7 +306,7 @@ footer.footer2{
 /*não esta funcionando esta media */
 @media screen and(max-width: 500px){
     .card-single{
-        padding: 10px;
+        padding: 500px;
         background-color: #237a23;
     }
   
