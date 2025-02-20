@@ -313,6 +313,25 @@ section.title-page > container {
     z-index: 101;
 }
 
+/* sobre container noticia */
+
+
+section.sobre__noticia{
+    padding: 30px 0;
+}
+
+.sobre__single__noticia img{
+    max-width: 100%;
+    float: left;
+    width: 50%;
+}
+
+.sobre__single__noticia p{
+    font-size: 20px;
+    padding: 20px 40px;
+    float: right;
+    width: 50%;
+}
 
 @media screen and (max-width: 768px){
  
@@ -336,6 +355,15 @@ section.title-page > container {
     }
 
     .card-single{
+        width: 100%;
+    }
+
+    .sobre__single__noticia img{
+        width: 100%;
+    }
+
+    
+    .sobre__single__noticia p{
         width: 100%;
     }
 }
