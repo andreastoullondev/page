@@ -40,7 +40,10 @@ header{
     font-weight: normal;
     font-size: 25px;
 }
-
+nav.menu-mobile{display: none;}
+nav.menu-mobile ul{
+    display: none;
+}
 nav.menu-desktop li.selected{font-weight: bold;}
 nav.menu-desktop{
     float: right;
@@ -276,6 +279,9 @@ footer.footer2{
 
 @media screen and (max-width: 568px){
 
+    nav.menu-mobile{
+        display: block;
+    }
     footer.footer1{
         text-align: center;
     }
@@ -298,3 +304,15 @@ footer.footer2{
     }
 }
 
+/*
+@media screen and (max-width:500px){
+    nav.menu-mobile{
+        display: block;
+    }
+    .card-single{
+        padding: 20px;
+    }
+}
+
+teno que entender pra q, e se realmente é necessario isso 
+*/
