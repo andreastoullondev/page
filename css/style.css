@@ -278,18 +278,33 @@ footer.footer2{
 }
 
 /*Pagina Sobre */
-
-
-
 section.title-page{
     padding: 30px;
     width: 100%;
     min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
    
     
 }
+/* não esta funcionando o efeito de overlay */
+section.title-page > .container{
+    position: relative;
+    z-index: 101;
+}
 
+.overlay__title-page{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.4);
+
+}
 section.title-page h2{ 
     color: red;
 }
