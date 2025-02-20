@@ -277,6 +277,28 @@ footer.footer2{
     color: white;
 }
 
+/*Pagina Sobre */
+
+
+
+section.title-page{
+    padding: 30px;
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+   
+    
+}
+
+section.title-page h2{ 
+    color: red;
+}
+section.title-page > container {
+    position: relative;
+    z-index: 101;
+}
+
+
 @media screen and (max-width: 768px){
  
  
