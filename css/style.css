@@ -369,6 +369,18 @@ section.equipe{
     padding: 40px 0;
 }
 
+.equipe-circles{
+    margin-top: 100px;
+    display: flex;
+}
+
+.equipe-circle-single{
+    padding: 0 20px;
+}
+
+.avatar-single{
+    
+}
 
 @media screen and (max-width: 768px){
  
