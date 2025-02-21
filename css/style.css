@@ -333,6 +333,21 @@ section.sobre__noticia{
     width: 50%;
 }
 
+
+/* ParallaX */
+
+section.parallax{
+    padding: 40px 0;
+    width: 100%;
+    min-height: 400px;
+    background-image: url(/images/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+
 @media screen and (max-width: 768px){
  
  
