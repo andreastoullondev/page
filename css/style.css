@@ -375,7 +375,13 @@ section.equipe{
 }
 
 .equipe-circle-single{
+    text-align: center;
     padding: 0 20px;
+}
+
+.equipe-circle-single h3{
+    margin-top: 8px;
+
 }
 
 .avatar-single{
