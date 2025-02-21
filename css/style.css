@@ -365,6 +365,10 @@ section.parallax p{
     color: aqua;
 }
 
+section.equipe{
+    padding: 40px 0;
+}
+
 
 @media screen and (max-width: 768px){
  
