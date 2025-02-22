@@ -502,7 +502,9 @@ section.contato .w100{
 
 @media screen and (max-width: 768px){
  
- 
+    .tags-form{
+        padding-left: 0px;
+    }
 
     footer.footer1{
         text-align: center;
