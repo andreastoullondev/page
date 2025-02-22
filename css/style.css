@@ -11,6 +11,16 @@
     padding: 0 2%;
 }
 
+.w60{
+    width: 60%;
+    float: left;
+}
+
+.w40{
+    width: 40%;
+    float: left;
+}
+
 .w50{
     width: 50%;
     float: left;
