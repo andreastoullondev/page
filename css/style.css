@@ -484,6 +484,22 @@ section.contato .w100{
     padding: 20px;
     resize: vertical;
 }
+
+.tags-form{
+    padding-left: 50px;
+}
+
+.tags-form h2{
+    font-weight: normal;
+}
+
+.tags-form p.tag-contato{
+    color: white;
+    background: #249b8f;
+    text-align: center;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 768px){
  
  
