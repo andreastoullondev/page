@@ -441,7 +441,21 @@ section.sobre__final p{
     margin-top: 20px;
     font-size: 16px;
 }
+/* contato */
 
+
+section.contato {
+    padding: 30px 0;
+}
+.formulario  h2 {
+    text-align: center;
+    background: #dddd;
+    color: black;
+    font-size: 17px;
+    font-weight: normal;
+    border-left: 3px  solid red;
+    padding: 4px 0;
+}
 @media screen and (max-width: 768px){
  
  
